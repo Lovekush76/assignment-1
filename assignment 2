@@ -1,0 +1,99 @@
+question 1.
+
+package KUSH;
+import java.util.Scanner;
+public class myans {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter name");
+        String a = sc.nextLine();
+        System.out.println("Enter roll number");
+        int b = sc.nextInt();
+        System.out.println("Enter Filed of interest");
+        sc.next();
+        String c = sc.nextLine();
+        System.out.println("Hey, my name is:- "+a);
+        System.out.println("my roll no is:- " +b);
+        System.out.println("my field of interest is:- " +c);
+    }
+}
+
+
+question 2.
+
+package KUSH;
+import java.util.Scanner;
+public class addstring {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        String First;
+        String Last;
+
+        System.out.println("Enter you First name");
+        First = in.nextLine();
+
+        System.out.println("Enter you Last name");
+        Last = in.nextLine();
+
+        System.out.println((First) + (Last));
+    }
+}
+
+
+question 3.
+
+package KUSH;
+import java.util.Scanner;
+public class averageofmarks {
+        public static void main(String[ ]  args) {
+            Scanner sc= new Scanner(System.in);
+            System.out.println("Enter the marks");
+            double a= sc.nextInt();
+            double b= sc.nextInt();
+            double c=sc.nextInt();
+            double total= a+b+c;
+            double Percent = total/300 *100;
+
+            System.out.println("Total marks =" + total);
+
+            System.out.println("Percentage="+Percent);
+
+        }
+
+}
+
+
+
+question 4.
+
+
+
+question 5.
+
+
+package KUSH;
+import java.util.Scanner;
+public class concentratestring {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+                String str1 = sc.nextLine();
+                String str2 = sc.nextLine();
+                String str3 = str1.concat(str2);
+                String str4 = sc.nextLine();
+                String str5 = sc.nextLine();
+                String str6 = str4.concat(str5);
+                String str7 = sc.nextLine();
+                String str8 = sc.nextLine();
+                String str9 = str7.concat(str8);
+                String str10 = sc.nextLine();
+                String str11 = sc.nextLine();
+                String str12 = str10.concat(str11);
+                System.out.println(str3);
+                System.out.println(str6);
+                System.out.println(str9);
+                System.out.println(str12);
+    }
+}
+
+

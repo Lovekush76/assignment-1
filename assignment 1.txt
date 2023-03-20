@@ -1,0 +1,78 @@
+question 1.
+
+package KUSH;
+import java.util.Scanner;
+public class multiply {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the first no");
+        int x = sc.nextInt();
+        System.out.println("enter the second number");
+        int y = sc.nextInt();
+        int z = x*y;
+        System.out.println("the result after multiplication is " +z);
+    }
+}
+
+question 2.
+
+package KUSH;
+public class asciivalue {
+    public static void main(String[] args) {
+                char ch = 'U';
+                int ascii = ch;
+                System.out.println("The ASCII value of " + ch
+                        + " is: " + ascii);
+    }
+}
+
+
+question 3.
+
+package KUSH;
+import java.util.Scanner;
+public class areaofrectangle {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter length of rectangle");
+        int x = sc.nextInt();
+        System.out.println("enter width of rectangle");
+        int y = sc.nextInt();
+        int z = x*y;
+        System.out.println("the area of given rectangle is " +z);
+    }
+}
+
+
+question 4.
+
+package KUSH;
+import java.util.Scanner;
+public class findingcubes {
+    public static void main(String[] args){
+            System.out.println("Enter a number ::");
+            Scanner sc = new Scanner(System.in);
+            int num = sc.nextInt();
+            System.out.println("Cube of the given number is "+(num*num*num));
+    }
+}
+
+
+question 5.
+
+package KUSH;
+public class swapno {
+        public static void main(String[] args) {
+            float first = 1.20f, second = 2.45f;
+            System.out.println("--Before swap--");
+            System.out.println("First number = " + first);
+            System.out.println("Second number = " + second);
+            float temporary = first;
+            first = second;
+            second = temporary;
+            System.out.println("--After swap--");
+            System.out.println("First number = " + first);
+            System.out.println("Second number = " + second);
+        }
+    }
+
